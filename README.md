@@ -1,3 +1,10 @@
+<table>
+  <tr>
+    <td><img src="https://github.com/aquabanana-a/Defacto/raw/459c0b19ce12c146ef4020abddde25afc2d93eb1/Screenshot_2025-07-01-13-44-53-352_com.banana.defacto.jpg" width="350"/></td>
+    <td><img src="https://github.com/aquabanana-a/Defacto/raw/459c0b19ce12c146ef4020abddde25afc2d93eb1/Screenshot_2025-07-01-13-45-05-693_com.banana.defacto.jpg" width="350"/></td>
+  </tr>
+</table>
+
 Test task
 
 You need to develop an app on Java/Kotlin for Android, “Interesting facts about numbers”. The application should allow the user to enter the number about which he wants to know an interesting fact, as well as - to randomly generate a number and get a fact about it. Application must contain 2 screens.
