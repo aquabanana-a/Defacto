@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_global"
+    app:startDestination="@id/factListFragment">
+
+    <fragment
+        android:id="@+id/factListFragment"
+        android:name="com.banana.defacto.view.factList.FactListFragment"
+        android:label="Fact List">
+        <action
+            android:id="@+id/action_factListFragment_to_factDetailsFragment"
+            app:destination="@id/factDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right">
+            <argument
+                android:name="fact"
+                app:argType="com.banana.defacto.data.Fact" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/factDetailsFragment"
+        android:name="com.banana.defacto.view.factDetails.FactDetailsFragment"
+        android:label="Fact Details">
+        <argument
+            android:name="fact"
+            app:argType="com.banana.defacto.data.Fact" />
+        <action
+            android:id="@+id/action_factDetailsFragment_to_factListFragment"
+            app:destination="@id/factListFragment"
+            app:popUpTo="@id/factDetailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

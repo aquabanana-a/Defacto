@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Defacto</string>
+
+    <string name="fact_list_header">FACT LIST</string>
+    <string name="fact_list_enter_number">Enter number</string>
+    <string name="fact_list_enter_number_incorrect_warn">Valid INT number is required to be entered</string>
+    <string name="fact_list_get_fact">Get fact</string>
+    <string name="fact_list_get_fact_random">Get fact about random number</string>
+    <string name="fact_list_error_alert_title">Something went wrong</string>
+    <string name="fact_list_error_alert_text">Please check your internet connection and try again later</string>
+    <string name="fact_list_error_alert_btn_ok">OK</string>
+    <string name="fact_list_empty_history">Empty history list</string>
+
+    <string name="fact_details_header">FACT DETAILS</string>
+</resources>
